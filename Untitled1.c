@@ -1,15 +1,15 @@
 #include<stdio.h>
 int main()
 {
-    int a,b,c;
-    for (a=1;a<=3;a++){
-        for (b=1;b<=3;b++){
-            for (c=1;c<=3;c++){
-                if (c!=b&&b!=a&&c!=a){
-                    printf("%d %d %d\n",a,b,c);
-                }
-            }
-        }
+    char ch='f';
+
+    if (ch<='a' && ch>='z')
+    {
+        printf("%c is lowest case\n",ch);
+    }
+    else if(ch<='A' && ch>='z')
+    {
+        printf("%c is upper case\n",ch);
     }
     return 0;
 }
